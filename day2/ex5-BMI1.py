@@ -10,6 +10,6 @@ weight = input("enter your weight in kg: ")
 new_height = float(height)
 new_weight = float(weight)
 
-bmi_result = int(new_weight/new_height**2)
+bmi_result = float(new_weight/new_height**2)
 
 print("your body mass index is " + str(bmi_result))
